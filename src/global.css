@@ -1,0 +1,24 @@
+html{
+    scroll-behavior: smooth ;
+}
+
+.sec{
+    height: 100vh;
+    display: flex;
+    
+    
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+body{
+    background-image: url("public/pexels-souvenirpixels-417074.jpg");
+    margin: 0%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Centers the image */
+    height: 100vh;
+    
+}

@@ -1,0 +1,10 @@
+// This file is used to configure the JavaScript language service and the TypeScript compiler. This is to make sure that the TypeScript compiler knows where to find the files that are being imported in the project.
+// For ease of use, we can use the paths property to create aliases for the directories that we are using in the project.
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "src/*": ["./src/*"],
+      }
+    }
+  }
