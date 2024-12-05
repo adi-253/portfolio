@@ -4,22 +4,31 @@ html{
 
 .sec{
     height: 100vh;
-    display: flex;
-    
-    
+    display: flex;;
     font-size: 2rem;
     font-weight: bold;
     color: white;
 }
 
 body{
-    background-image: url("/pexels-souvenirpixels-417074.jpg");
+    background-image: url("/blue_background.png");
     margin: 0%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; /* Centers the image */
     height: 100vh;
-    width:50vh
-    
+}
+.topnav {
+    padding-right: 1vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50vh;
+    font-size: 40px;
+  }
+
+ul{
+    position: fixed;
+    right:0;
 }
