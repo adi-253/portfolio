@@ -1,6 +1,6 @@
 const Contact = () => {
     return (
-        <section className="sec">Contact</section>
+        <section className="sec" id="contact">Contact</section>
     )
 }
 
