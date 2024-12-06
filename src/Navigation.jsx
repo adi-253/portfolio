@@ -10,9 +10,10 @@ const Navigation = () => {
   };
 
   return (
-    <ul className="nav justify-content-end">
+    <ul className="navbar nav justify-content-end">  {/* navbar is the class name i gave others are the bootstrap one */}
       <li className="nav-item">
-        <a className="nav-link" onClick={() => scrollToSection("home")}>Home</a>
+      <div className="nav-link" onClick={() => scrollToSection("home")}>Home</div>  {/* just showing that we can use div instead of a tag */}
+
       </li>
       <li className="nav-item">
         <a className="nav-link" onClick={() => scrollToSection("about")}>About</a>

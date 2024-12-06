@@ -1,18 +1,85 @@
 html{
     scroll-behavior: smooth ;
+  
+}
+*{
+    font-family: "DM Sans", sans-serif;
+   
 }
 
 .sec{
     height: 100vh;
-    display: flex;;
+    display: flex;
     font-size: 2rem;
     font-weight: bold;
     color: white;
+    scroll-snap-align:center;
+    
 }
 
-body{
-    background-image: url("/black.jpg");
+/*body{
+    background-color:#F0F0F0  ;
     margin: 0%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Centers the image 
+    height: 100vh;
+}*/
+
+/*.navbar{
+    display: flex;
+    justify-content:start;
+    align-items: left;
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 50;
+    z-index: 1000;
+}  not gonna use it as we are using bootstrap one*/ 
+
+.navbar{
+    position: fixed;
+    z-index: 1000;
+    
+    
+        /* z-index is used to make the navbar on top of everything */
+}
+
+#contact{
+    height:20vh;
+}
+ul{
+    position: fixed;
+    right:0;
+}
+.nav-link{
+    color:red;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color:black;
+}
+
+
+
+
+
+
+#home{
+    background-color: 	#E8E8E8  ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    /* Centers the image */
+    height: 100vh;
+    color:black
+}
+
+#about{
+    background-color:	#202020  ;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,66 +87,21 @@ body{
     height: 100vh;
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    color: white;
-    padding: 1rem 2rem;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-}
-
-
-ul{
-    position: fixed;
-    right:0;
-}
-.nav-link{
-    color:white;
-    cursor: pointer;
-}
-
-.nav-link:hover {
-    color:red;
-}
-
-
-
-/*#home{
-    background-image: url("/black.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;    /* Centers the image 
-    height: 100vh;
-}
-
-#about{
-    background-image: url("/black_background.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; /* Centers the image 
-    height: 100vh;
-}
-
 #projects{
-    background-image: url("/black.jpg");
+    background-color: #F0F0F0 ;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; /* Centers the image 
+    background-size: cover; /* Centers the image */
     height: 100vh;
+    color:black
 }
 
 #contact{
-    background-image: url("/black_background.jpg");
+    background-color:#000000;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; /* Centers the image 
-    height: 100vh;
-}*/
+    background-size: cover; /* Centers the image */
+    height: 10vh;
+}
