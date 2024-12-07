@@ -14,6 +14,7 @@ html{
     font-weight: bold;
     color: white;
     scroll-snap-align:center;
+    pointer-events: none; 
     
 }
 
@@ -67,7 +68,7 @@ ul{
 
 #home{
     background-color: 	#E8E8E8  ;
-    background-attachment: fixed; /* to make the background fixed while scrolling*/
+    background-attachment: absolute; /* to make the background fixed while scrolling here it is not required because each section has different background color*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    /* Centers the image */
@@ -76,14 +77,13 @@ ul{
 }
 
 .home_container {
-    position:fixed;
-    background-attachment: fixed;
+    position:absolute;
     top: 10%;
     left: 0;
     width: 100%;
     background-color: #E8E8E8;
     overflow: hidden;
-    pointer-events: none; /* prevents interaction */
+    pointer-events: none; /* prevents interaction i.e the cursor wont go to typing mode when you hover over the text*/    
 }
 
 
