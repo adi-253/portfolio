@@ -68,7 +68,7 @@ ul{
 
 #home{
     background-color: 	#E8E8E8  ;
-    background-attachment: absolute; /* to make the background fixed while scrolling here it is not required because each section has different background color*/
+    background-attachment: fixed; /* to make the background fixed while scrolling here it is not required because each section has different background color*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    /* Centers the image */
@@ -78,13 +78,16 @@ ul{
 
 .home_container {
     position:absolute;
-    top: 10%;
-    left: 0;
+    top: 20%;
+   /* left: 5%; *\  /* to make the text on the left side after the text is at center  */ 
     width: 100%;
     background-color: #E8E8E8;
+    text-align: center;
     overflow: hidden;
-    pointer-events: none; /* prevents interaction i.e the cursor wont go to typing mode when you hover over the text*/    
+    pointer-events: none;
+    font-size: 50px; /* prevents interaction i.e the cursor wont go to typing mode when you hover over the text*/    
 }
+
 
 
 

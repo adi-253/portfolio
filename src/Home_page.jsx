@@ -1,16 +1,15 @@
 const Home = () => {
     return (
         <>
-        <section class="sec" id="home"> Adithya </section> 
+        <section class="sec" id="home"> Adithya 
             <div class="home_container">
                 <p class="home_text">
-                    HII,My name is Adithya 
+                    HII,My name is Adithya <br />
+                    I am a passionate ML enginner 
                 </p>
-                <p class="home_text">
-                    I am a Full Stack Developer
-                </p>    
             </div>
-        </>
+        </section>
+        </> 
     )
 }
 
