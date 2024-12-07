@@ -41,22 +41,19 @@ html{
 
 .navbar{
     position: fixed;
-    z-index: 1000;
-    
-    
-        /* z-index is used to make the navbar on top of everything */
+    z-index: 9999; /* z-index is used to make the navbar on top of everything because we are rendering it first and home renders on top of it */
 }
 
-#contact{
-    height:20vh;
-}
+
 ul{
     position: fixed;
-    right:0;
+    right:0; /* to make the navbar on the right side */
 }
 .nav-link{
     color:red;
     cursor: pointer;
+    font-size: 1.5rem;
+     
 }
 
 .nav-link:hover {
@@ -70,13 +67,27 @@ ul{
 
 #home{
     background-color: 	#E8E8E8  ;
-    background-attachment: fixed;
+    background-attachment: fixed; /* to make the background fixed while scrolling*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    /* Centers the image */
     height: 100vh;
     color:black
 }
+
+.home_container {
+    position:fixed;
+    background-attachment: fixed;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    background-color: #E8E8E8;
+    overflow: hidden;
+    pointer-events: none; /* prevents interaction */
+}
+
+
+
 
 #about{
     background-color:	#202020  ;
