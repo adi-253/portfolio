@@ -47,7 +47,7 @@ html{
 
 
 ul{
-    position: fixed;
+    position: fixed; /* not needed as we have put it to ul of the navbar which is the parent element of that */
     right:0; /* to make the navbar on the right side */
 }
 .nav-link{
@@ -77,7 +77,9 @@ ul{
 }
 
 .home_container {
-    position:absolute;
+    position:absolute; /* difference between absoulte and fixed is that fixed will make the element visible even when u scroll 
+                        i.e it reamines at the same place even if the html content changes whereas absolute will make the element
+                        visible only when the html content is visible */
     top: 20%;
    /* left: 5%; *\  /* to make the text on the left side after the text is at center  */ 
     width: 100%;
@@ -86,6 +88,10 @@ ul{
     overflow: hidden;
     pointer-events: none;
     font-size: 50px; /* prevents interaction i.e the cursor wont go to typing mode when you hover over the text*/    
+}
+
+.home_container text{
+    font-size: 10px;
 }
 
 

@@ -1,3 +1,6 @@
+import React from 'react';  /* no need from now */
+
+
 const Home = () => {
     return (
         <>
