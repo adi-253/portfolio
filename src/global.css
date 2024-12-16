@@ -79,7 +79,7 @@ ul{
 .home_container {
     position:absolute; /* difference between absoulte and fixed is that fixed will make the element visible even when u scroll 
                         i.e it reamines at the same place even if the html content changes whereas absolute will make the element
-                        visible only when the html content is visible */
+                        visible only when that   html content is visible */
     top: 20%;
    /* left: 5%; *\  /* to make the text on the left side after the text is at center  */ 
     width: 100%;
