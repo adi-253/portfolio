@@ -24,7 +24,7 @@ const Navigation = () => {
 
   return (
     <motion.ul
-      className=" nav  navbar   justify-content-end"  // nav is my given
+      className=" nav  navbar   justify-content-end"  // nav is my given  multiple classnames can be given separated by space
       initial="hidden"
       animate="visible"
       variants={navVariants} // Apply staggered animations for the list items
