@@ -4,6 +4,7 @@ html{
 }
 *{
     font-family: "DM Sans", sans-serif;
+    user-select: none; /* to prevent the text from getting selected */
    
 }
 
