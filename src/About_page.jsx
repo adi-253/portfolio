@@ -15,7 +15,7 @@ const About = () => {
         <div id="Aboutcontainer" data-aos="fade-down">
         I study at NITK SURATHKAL
         </div>
-            
+                
         </section>
     );
 };
